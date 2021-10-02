@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-listado',
@@ -12,6 +12,6 @@ export class ListadoComponent {
   borrarHeroe() {
     // this.heroes.splice(1, 1);
     this.heroeBorrado = this.heroes.shift() || '';
-    console.log(this.heroeBorrado);
+    // console.log(this.heroeBorrado);
   }
 }
